@@ -1,0 +1,14 @@
+{
+  "name": "teste-broadvoice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress run --headed --no-exit --spec 'cypress/e2e/index.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
